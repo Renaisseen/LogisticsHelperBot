@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogisticsHelperBot", "LogisticsHelperBot\LogisticsHelperBot.csproj", "{2C13C7D8-28E2-4562-BA46-A79ECC9210D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C13C7D8-28E2-4562-BA46-A79ECC9210D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C13C7D8-28E2-4562-BA46-A79ECC9210D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C13C7D8-28E2-4562-BA46-A79ECC9210D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C13C7D8-28E2-4562-BA46-A79ECC9210D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BFC2D94-D116-42E8-A39E-36C917F0BAFA}
+	EndGlobalSection
+EndGlobal
