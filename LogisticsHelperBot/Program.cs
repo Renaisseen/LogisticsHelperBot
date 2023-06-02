@@ -14,11 +14,11 @@ namespace TelegramGoogleDirectionsBot
         private static TelegramBotClient botClient;
         public static string _startPoint = string.Empty;
         public static string _endPoint = string.Empty;
-        static string _keyGoogleApi = "AIzaSyCUVEsuuxK5EYz-g-gwn7IhRxpvb2L4FMw";
+        static string _keyGoogleApi = "GOOGLE_API_KEY";
         static void Main(string[] args)
         {
-            botClient = new TelegramBotClient("6220224366:AAEROO47T6kfKQXDXIoHUzp7xEbUdyWv7yQ");
-            GoogleSigned.AssignAllServices(new GoogleSigned("AIzaSyCUVEsuuxK5EYz-g-gwn7IhRxpvb2L4FMw"));
+            botClient = new TelegramBotClient("TELEGRAM_BOT_TOKEN");
+            GoogleSigned.AssignAllServices(new GoogleSigned(_keyGoogleApi));
             botClient.OnMessage += BotClient_OnMessage;
             botClient.StartReceiving();
 
