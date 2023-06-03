@@ -3,7 +3,7 @@ Telegram Bot + Google Direction API that searches for fastest route from point A
 # Language
 Written in C# using Google namespace for Direction API usage. Replace key for Google API and Telegram token for personal use.
 # HowTo
-Copy project to your local directory, replace tokens in Program.cs, run. Go to Telegram, write bot commands. REPLY to bot messages to move along algorithm.<br>Currently only one "between" city is analyzed and compared.
+Copy project to your local directory, replace tokens in Program.cs, run. Go to Telegram, write bot commands. REPLY to bot messages to move along algorithm.<br>Currently only one "between" city among entered will take place in optimal route.
 # Example
 **You**: /analyze<br>
 **Bot**: Enter the starting point (Point A).<br>
